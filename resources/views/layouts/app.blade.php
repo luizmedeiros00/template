@@ -20,11 +20,19 @@
         <script src="{{asset('bootstrap/js/bootstrap.bundle.min.js')}}"></script>
         <script src="{{asset('jquery-easing/jquery.easing.min.js')}}"></script>
         <script src="{{asset('js/sb-admin-2.min.js')}}"></script>
+
+        <link href="{{asset('js/datatables/dataTables.bootstrap4.min.css')}}" rel="stylesheet">
+          <!-- Page level plugins -->
+        <script src="{{asset('js/datatables/jquery.dataTables.min.js')}}"></script>
+        <script src="{{asset('js/datatables/dataTables.bootstrap4.min.js')}}"></script>
+
+        <!-- Page level custom scripts -->
+        <script src="{{asset('js/demo/datatables-demo.js')}}"></script>
     </head>
     <body id="page-top">
         <div id="wrapper">
             <!-- Page Wrapper -->
-            <div id="wrapper">
+       
                 <!-- Sidebar -->
                 @include('layouts.sidebar')
                 <!-- End of Sidebar -->
@@ -61,7 +69,7 @@
                 </div>
                 <!-- End of Content Wrapper -->
 
-            </div>
+           
   <!-- End of Page Wrapper -->
 
         </div>
